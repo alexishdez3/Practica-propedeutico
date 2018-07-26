@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumerate}
+
+\usepackage[
+  top=3cm,
+  bottom=3cm,
+  left=2cm,
+  right=2cm,
+  heightrounded,
+]{geometry}
+
+\author{Luis Martínez}
+\title{Enumeración}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+Plantilla de \LaTeX.
+
+% https://www.lipsum.com
+\section{Ejemplos de enumeración en Latex}
+\begin{enumerate}
+\item Este es el primer párrafo en el primer nivel
+\item Este es el segundo reglón
+  \begin{enumerate}
+  \item Queremos ver qué pasa al anidar en el segundo nivel
+  \item Este es el segundo reglón
+  \end{enumerate}
+\end{enumerate}
+
+\begin{enumerate}[(a)]
+\item Este es otro ejemplo de enumeración
+\item aquí hay otro renglón
+\end{enumerate}
+
+\begin{enumerate}[I.]
+\item Ejemplo de incisos con números romanos
+	\item Segundo inciso con números romanos
+\end{enumerate}
+
+Este es el ejemplo de una formula matemática
+$$ X_i + Y_i = 6 $$
+
+Ejemplo de una fracción 
+$$\frac{x_6}{y_8}$$\\
+
+
+Ejemplo de signo especial $\alpha$ 
+
+Ejemplo con raíz cuadrada $$\frac{-\beta \pm \sqrt[2]{\beta^2-4\alpha\gamma}}{2\alpha}$$
+
+
+
+
+\end{document}
+
